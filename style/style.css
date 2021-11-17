@@ -5,7 +5,9 @@
 }
 
 body {
-    background-image: linear-gradient(to right bottom, #04cdcd, #00bcde, #00a8ef, #008ff5, #1271eb);
+    /* background-image: linear-gradient(to right bottom, #04cdcd, #00bcde, #00a8ef, #008ff5, #1271eb); */
+    background-image: url('jason-dent-YXZM_NSGf90-unsplash.jpg');
+    background-size: cover;
     direction: rtl;
     display: flex;
     justify-content: center;
@@ -13,6 +15,11 @@ body {
     flex-wrap: wrap;
     align-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+.header h1 {
+    text-shadow: 0 0 7px black;
 }
 
 div.cuntiner {
@@ -39,8 +46,26 @@ div.phonenumber {
     text-align: end;
     padding: 0 0 0 20px;
     font-size: 20px;
+    animation: boxshow 3s;
+}
+
+@keyframes boxshow {
+    from {
+        /* transform: scaleX(0); */
+        opacity: 40%;
+    }
+    to {
+        /* transform: scale(100%); */
+        opacity: 100%;
+    }
 }
 
 span {
     text-shadow: 0 0 8px #060810;
+}
+
+.lineStart .lineEnd {
+    width: 100%;
+    height: 1px;
+    background-color: blanchedalmond;
 }
