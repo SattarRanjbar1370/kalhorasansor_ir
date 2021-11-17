@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #04cdcd, #00bcde, #00a8ef, #008ff5, #1271eb);
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.cuntiner {
+    /*background-image: linear-gradient(to left bottom, #045ccd, #3171d3, #4f86d6, #6c99d9, #8aadda);*/
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.cuntiner div {
+    margin: 15px;
+}
+
+div.phonenumber {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: end;
+    padding: 0 0 0 20px;
+    font-size: 20px;
+}
+
+span {
+    text-shadow: 0 0 8px #060810;
+}
