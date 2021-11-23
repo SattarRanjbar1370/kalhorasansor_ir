@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(31, 25, 121);
+    background: linear-gradient(90deg, rgba(31, 25, 121, 1) 0%, rgba(15, 185, 219, 1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.continer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div.header {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid black;
+    padding: 20px;
+}
+
+div.header div {
+    width: 56%;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid black;
+    overflow: hidden;
+    margin: 10px 0;
+    box-shadow: -9px 6px 20px 1px #242530;
+}
+
+div.boxtext {
+    height: 30vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: tahoma;
+    direction: rtl;
+    border-bottom: 5px solid black;
+}
+
+div.boxtext h1 {
+    font-size: 50pt;
+}
+
+div.boxtext p {
+    font-size: 37pt;
+}
+
+div.footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 25vh;
+    font-size: 40px;
+    direction: rtl;
+    justify-content: space-evenly;
+}
+
+div.number {
+    width: 29%;
+    border-left: 5px solid black;
+}
+
+div.admin {
+    text-align: end;
+}
