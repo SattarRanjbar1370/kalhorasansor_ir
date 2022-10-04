@@ -25,6 +25,9 @@ body {
 
 div.cuntiner {
     /*background-image: linear-gradient(to left bottom, #045ccd, #3171d3, #4f86d6, #6c99d9, #8aadda);*/
+    background-color: #00000073;
+    backdrop-filter: blur(8px);
+    border-radius: 17px;
     height: 90%;
     display: flex;
     justify-content: center;
